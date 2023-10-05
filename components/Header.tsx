@@ -16,13 +16,13 @@ export default function Header() {
     <header className="bg-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <a href="/" className="-m-1.5 p-1.5">
+          <div className="-m-1.5 p-1.5">
             <span className="sr-only">Aviftopng.com</span>
             <div className='flex items-center'>
               <img className="h-8 w-auto" src="/aviftopnglogo.avif" alt="" />
               <div>aviftopng.top</div>
             </div>
-          </a>
+          </div>
         </div>
         <div className="flex lg:hidden">
           <button
