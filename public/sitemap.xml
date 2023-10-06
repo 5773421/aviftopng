@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
 
 <url>
-  <loc>https://aivariablename.com/</loc>
-  <lastmod>2023-09-18T15:32:14+00:00</lastmod>
+ <loc>https://www.douban.com/link2/?url=https%3A%2F%2Faviftopng.top</loc>
+ <priority>0.3</priority>
+ <lastmod>2023-10-06</lastmod>
+ <changefreq>weekly</changefreq>
 </url>
 
+<url>
+ <loc>https://link.csdn.net/?target=https%3A%2F%2Faviftopng.top</loc>
+ <priority>0.3</priority>
+ <lastmod>2023-10-06</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://www.coolapk.com/link?url=https%3A%2F%2Faviftopng.top</loc>
+ <priority>0.3</priority>
+ <lastmod>2023-10-06</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://aviftopng.top/</loc>
+ <priority>0.3</priority>
+ <lastmod>2023-10-06</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
 
 </urlset>
