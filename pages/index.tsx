@@ -101,9 +101,12 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://aivariablename.com" />
+        <link rel="canonical" href="https://aviftopng.top" />
       </Head>
       <div className='flex flex-col min-h-screen'>
+        <a href='https://www.douban.com/link2/?url=https%3A%2F%2Faviftopng.top'></a>
+        <a href='https://link.csdn.net/?target=https%3A%2F%2Faviftopng.top'></a>
+        <a href='https://www.coolapk.com/link?url=https%3A%2F%2Faviftopng.top'></a>
         <Header />
         <div className='bg-[rgba(51,51,72,0.1)] grow flex flex-col items-center px-5'>
           {/* <h2 className='text-4xl font-bold mt-10'>Convert images</h2> */}
