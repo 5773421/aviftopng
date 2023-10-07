@@ -89,14 +89,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>aviftopng-avif to png-.avif to png-convert avif to png</title>
+        <title>aviftopng - avif to png - .avif to png - convert avif to png</title>
         <meta
           name="description"
           content="Aviftopng is an image format conversion website that offers avif to png features, .avif to png services, image convert"
         />
         <meta
           name="keywords"
-          content="aviftopng, avif to png, .avif to png, convert avif to png, how to change avif to png
+          content="avif to png, .avif to png, convert avif to png, how to change avif to png
           "
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
