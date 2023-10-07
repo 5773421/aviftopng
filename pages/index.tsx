@@ -128,21 +128,28 @@ export default function Home() {
                 You can convert avif images to png and many other formats for free using online conversion tools!
               </p>
               <p className='font-normal text-lg'>
-                AVIF (AV1 Image File Format) is a relatively new image file format developed by the Alliance for Open Media (AOM), which also created the popular video codec AV1.AVIF uses the AV1 video compression codec to compress high-quality images into smaller file sizes than other image formats such as JPEG and PNG.
+                Convert image files with our easy to use and free tool. Our tool lets you upload a AVIF (AV1 Image File Format) file and from this, create a new image saved in the PNG (Portable Network Graphics). Our conversion tool can also batch convert multiple AVIF image files.
               </p>
 
               <h2 className='text-2xl font-semibold mt-5'>Advantages of our tools</h2>
               <p className='font-normal text-lg'>
                 Process images online without uploading files.
-              </p>
-              <p className='font-normal text-lg'>
                 No need to upload files, more privacy.
-              </p>
-              <p className='font-normal text-lg'>
                 aviftopng.com all tools are implemented using browser technology.
+                Faster and safer, 100% free.
+              </p>
+
+              <h2 className='text-2xl font-semibold mt-5'>AVIF</h2>
+              <p className='font-normal text-lg'>
+                The AVIF format is an image based container format designed to store image or image sequences which are compressed with the AV1 compression algorithm. The format has been around since 2019 and is based on the HEIF container format and as such it competes with the HEIC image format.
               </p>
               <p className='font-normal text-lg'>
-                Faster and safer, 100% free.
+                During tests the format has shown to perform better than JPG files not just in the reduced file size but in overall image quality. Support for the format is growing and is already supported in the Chrome and Firefox web browsers. AVIF files can also be opened in many 2D image editing applications.
+              </p>
+
+              <h2 className='text-2xl font-semibold mt-5'>PNG</h2>
+              <p className='font-normal text-lg'>
+                Portable Network Graphics (PNG) is a raster graphics file format that supports lossless data compression. PNG was created as an improved, non-patented replacement for Graphics Interchange Format (GIF), and is the most used lossless image compression format on the Internet. PNG itself does not support animation at all. MNG is an extension to PNG that does; it was designed by members of the PNG Group.
               </p>
             </div>
           </div>}

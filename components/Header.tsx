@@ -3,7 +3,7 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'AVIF TO PNG', href: '/' },
+  { name: 'Aviftopng.top', href: '/' },
   // { name: 'Features', href: '#' },
   // { name: 'Marketplace', href: '#' },
   // { name: 'Company', href: '#' },
@@ -17,10 +17,10 @@ export default function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <div className="-m-1.5 p-1.5">
-            <span className="sr-only">Aviftopng.com</span>
+            <div className="sr-only">AVIF TO PNG</div>
             <div className='flex items-center'>
               <img className="h-8 w-auto" src="/aviftopnglogo.avif" alt="" />
-              <div>aviftopng.top</div>
+              <h1>AVIF TO PNG</h1>
             </div>
           </div>
         </div>
