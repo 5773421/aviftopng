@@ -89,7 +89,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Aviftopng - Convert Avif to Png</title>
+        <title>AVIF to PNG - Convert Avif to Png (Free & Easy & Fast)</title>
         <meta
           name="description"
           content="You can convert avif to png and many other formats for free using online conversion tools!"
