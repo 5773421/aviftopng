@@ -92,7 +92,7 @@ export default function Home() {
         <title>Aviftopng - Convert Avif to Png</title>
         <meta
           name="description"
-          content="You can convert avif images to png and many other formats for free using online conversion tools!"
+          content="You can convert avif to png and many other formats for free using online conversion tools!"
         />
         <meta
           name="keywords"
@@ -150,6 +150,9 @@ export default function Home() {
               <h2 className='text-2xl font-semibold mt-5'>PNG</h2>
               <p className='font-normal text-lg'>
                 Portable Network Graphics (PNG) is a raster graphics file format that supports lossless data compression. PNG was created as an improved, non-patented replacement for Graphics Interchange Format (GIF), and is the most used lossless image compression format on the Internet. PNG itself does not support animation at all. MNG is an extension to PNG that does; it was designed by members of the PNG Group.
+              </p>
+              <p className='font-normal text-lg'>
+                PNGs use lossless compression, which offers high-quality images with more colours. However, this often means PNG files are bigger than some other formats like JPG. The PNG format is open source, and you can open these files using almost all devices, image editors and viewers. Many smartphones now allow you to easily remove backgrounds and create PNGs of individual parts of photos.
               </p>
             </div>
           </div>}
