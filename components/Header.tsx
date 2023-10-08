@@ -17,10 +17,10 @@ export default function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <div className="-m-1.5 p-1.5">
-            <div className="sr-only">AVIF TO PNG</div>
+            <div className="sr-only"></div>
             <div className='flex items-center'>
               <img className="h-8 w-auto" src="/aviftopnglogo.avif" alt="" />
-              <h1>AVIF TO PNG</h1>
+              <h1>Convert AVIF TO PNG</h1>
             </div>
           </div>
         </div>
