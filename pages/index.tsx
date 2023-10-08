@@ -139,7 +139,7 @@ export default function Home() {
                 Faster and safer, 100% free.
               </p>
 
-              <h2 className='text-2xl font-semibold mt-5'>AVIF</h2>
+              <h2 className='text-2xl font-semibold mt-5'>AVIF IMAGE</h2>
               <p className='font-normal text-lg'>
                 The AVIF format is an image based container format designed to store image or image sequences which are compressed with the AV1 compression algorithm. The format has been around since 2019 and is based on the HEIF container format and as such it competes with the HEIC image format.
               </p>
@@ -147,13 +147,28 @@ export default function Home() {
                 During tests the format has shown to perform better than JPG files not just in the reduced file size but in overall image quality. Support for the format is growing and is already supported in the Chrome and Firefox web browsers. AVIF files can also be opened in many 2D image editing applications.
               </p>
 
-              <h2 className='text-2xl font-semibold mt-5'>PNG</h2>
+              <h2 className='text-2xl font-semibold mt-5'>PNG IMAGE</h2>
               <p className='font-normal text-lg'>
                 Portable Network Graphics (PNG) is a raster graphics file format that supports lossless data compression. PNG was created as an improved, non-patented replacement for Graphics Interchange Format (GIF), and is the most used lossless image compression format on the Internet. PNG itself does not support animation at all. MNG is an extension to PNG that does; it was designed by members of the PNG Group.
               </p>
               <p className='font-normal text-lg'>
                 PNGs use lossless compression, which offers high-quality images with more colours. However, this often means PNG files are bigger than some other formats like JPG. The PNG format is open source, and you can open these files using almost all devices, image editors and viewers. Many smartphones now allow you to easily remove backgrounds and create PNGs of individual parts of photos.
               </p>
+
+              <h2 className='text-2xl font-semibold mt-5'>How can I convert my AVIF file to PNG?</h2>
+              <p className='font-normal text-lg'>First click the `Select the file` button, select your AVIF file to upload. Select any configuration options. When the AVIF to PNG conversion has completed, you can download your PNG file straight away.</p>
+
+              <h2 className='text-2xl font-semibold mt-5'>How long does it take to convert my AVIF to PNG?</h2>
+              <p className='font-normal text-lg'>We aim to process all AVIF to PNG conversions as quickly as possible, this usually takes around 5 seconds but can be more for larger more complex files so please be patient.</p>
+
+              <h2 className='text-2xl font-semibold mt-5'>How accurate is the AVIF to PNG conversion?</h2>
+              <p className='font-normal text-lg'>We aim to create the most accurate conversions with our tools. Our tools are under constant development with new features and improvements being added every week.</p>
+
+              <h2 className='text-2xl font-semibold mt-5'>Can I convert AVIF to PNG on Windows, Linux, Android, iOS or Mac OS?</h2>
+              <p className='font-normal text-lg'>Our AVIF to PNG tool will run on any system with a modern web browser. No specialist software is needed to run any of our conversion tools.</p>
+
+              <h2 className='text-2xl font-semibold mt-5'>I have several AVIF files, can I batch convert my AVIF to PNG?</h2>
+              <p className='font-normal text-lg'>Yes! Our AVIF tool supports full batch conversions. Our tool will convert them all as quickly as possible. Once completed.</p>
             </div>
           </div>}
           {fileList?.length !== 0 && <div className='flex w-full'>
