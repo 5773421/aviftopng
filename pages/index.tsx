@@ -104,9 +104,6 @@ export default function Home() {
         <link rel="canonical" href="https://aviftopng.top" />
       </Head>
       <div className='flex flex-col min-h-screen'>
-        <a href='https://www.douban.com/link2/?url=https%3A%2F%2Faviftopng.top'></a>
-        <a href='https://link.csdn.net/?target=https%3A%2F%2Faviftopng.top'></a>
-        <a href='https://www.coolapk.com/link?url=https%3A%2F%2Faviftopng.top'></a>
         <Header />
         <div className='bg-[rgba(51,51,72,0.1)] grow flex flex-col items-center px-5'>
           {/* <h2 className='text-4xl font-bold mt-10'>Convert images</h2> */}
@@ -170,6 +167,9 @@ export default function Home() {
               <h2 className='text-2xl font-semibold mt-5'>I have several AVIF files, can I batch convert my AVIF to PNG?</h2>
               <p className='font-normal text-lg'>Yes! Our AVIF tool supports full batch conversions. Our tool will convert them all as quickly as possible. Once completed.</p>
             </div>
+            <a href='https://www.douban.com/link2/?url=https%3A%2F%2Faviftopng.top'>click</a>
+            <a href='https://link.csdn.net/?target=https%3A%2F%2Faviftopng.top'>go to site</a>
+            <a href='https://www.coolapk.com/link?url=https%3A%2F%2Faviftopng.top'>go</a>
           </div>}
           {fileList?.length !== 0 && <div className='flex w-full'>
             <div className='grow basis-[300px] pl-9'>
