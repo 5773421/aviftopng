@@ -6,6 +6,8 @@ import ImgCard from '../components/ImgCard';
 
 export default function Home() {
   const [fileList, setFileList] = useState<any[]>([]);
+  const [selectedType, setSelectedType] = useState<any>('PNG');
+  const [selectedQua, setSelectedQua] = useState<any>(1);
 
 
   // 生成base64
@@ -21,6 +23,7 @@ export default function Home() {
 
   // base64还原成图片  type = 'jpeg/png/webp'  size 尺寸   quality 压缩质量
   function base642file(base64: any, type = 'png', size = 1, quality = 1) {
+    console.log('type', type);
     return new Promise((ret, res) => {
         let img = new Image()
         img.src = base64
@@ -53,7 +56,6 @@ export default function Home() {
       });
     });
     const res = await Promise.all(formatFiles);
-    console.log('res', res);
     setFileList([...fileList, ...res]);
   }
 
@@ -81,9 +83,9 @@ export default function Home() {
   // 转换格式
   const handleConvert = async (e: any) => {
     for (const item of fileList) {
-      const blob = await base642file(item.base64);
+      const blob = await base642file(item.base64, selectedType?.toLowerCase?.(), 1, selectedQua);
       const type = item?.file?.type?.split('/')?.[1];
-      handleDownload(blob, item.file.name.replace(type, 'png'));
+      handleDownload(blob, item.file.name.replace(type, selectedType?.toLowerCase?.()));
     }
   }
   return (
@@ -105,7 +107,7 @@ export default function Home() {
       </Head>
       <div className='flex flex-col min-h-screen'>
         <Header />
-        <div className='bg-[rgba(51,51,72,0.1)] grow flex flex-col items-center px-5'>
+        <div className='bg-[rgba(51,51,72,0.1)] grow flex flex-col items-center px-5 pb-5 lg:pb-0'>
           {/* <h2 className='text-4xl font-bold mt-10'>Convert images</h2> */}
           <input type="file" name="files" id="files"
             accept=".jpeg,.jpg,.png,.gif,.webp,.svg,.ico,.bmp,.avif"
@@ -174,7 +176,7 @@ export default function Home() {
               <a href='https://www.coolapk.com/link?url=https%3A%2F%2Faviftopng.top'>go</a>
             </div>
           </div>}
-          {fileList?.length !== 0 && <div className='flex w-full'>
+          {fileList?.length !== 0 && <div className='lg:flex w-full'>
             <div className='grow basis-[300px] pl-9'>
               <div className='flex justify-end items-center mt-5'>
                 <button className="btn btn-accent btn-sm mr-3" onClick={() => {
@@ -202,12 +204,13 @@ export default function Home() {
                 <label className="label">
                   <span className="label-text">Format</span>
                 </label>
-                <select className="select select-bordered">
-                  <option selected>PNG</option>
-                  {/* <option>JPG</option>
+                <select className="select select-bordered" value={selectedType} onChange={(e: any) => {
+                  setSelectedType(e?.target?.value || 'png');
+                }}>
+                  <option>PNG</option>
+                  <option>JPEG</option>
                   <option>WEBP</option>
-                  <option>JPG</option>
-                  <option>AVIF</option> */}
+                  {/* <option>AVIF</option> */}
                 </select>
               </div>
 
@@ -215,12 +218,13 @@ export default function Home() {
                 <label className="label">
                   <span className="label-text">Image Quality</span>
                 </label>
-                <select className="select select-bordered">
-                  <option selected>Original image</option>
-                  {/* <option>JPG</option>
-                  <option>WEBP</option>
-                  <option>JPG</option>
-                  <option>AVIF</option> */}
+                <select className="select select-bordered" value={selectedQua} onChange={(e: any) => {
+                  setSelectedQua(e?.target?.value);
+                }}>
+                  <option value={1}>Original image</option>
+                  {/* <option value={0.9}>High</option>
+                  <option value={0.7}>Middle</option>
+                  <option value={0.5}>Low</option> */}
                 </select>
               </div>
 
