@@ -170,7 +170,7 @@ export default function Home() {
               <p className='font-normal text-lg'>Yes! Our AVIF tool supports full batch conversions. Our tool will convert them all as quickly as possible. Once completed.</p>
             </div>
             <div className='flex justify-around'>
-              <div>You can use short url<a href='https://shorturl.at/jlLXZ'>https://shorturl.at/jlLXZ</a></div>
+              <div>You can use short url<a href='https://rb.gy/fwxdh'>https://rb.gy/fwxdh</a></div>
               <a href='https://www.douban.com/link2/?url=https%3A%2F%2Faviftopng.top'>click</a>
               <a href='https://link.csdn.net/?target=https%3A%2F%2Faviftopng.top'>go to site</a>
               <a href='https://www.coolapk.com/link?url=https%3A%2F%2Faviftopng.top'>go</a>
