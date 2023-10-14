@@ -134,7 +134,7 @@ export default function Home() {
               <p className='font-normal text-lg'>
                 Process images online without uploading files.
                 No need to upload files, more privacy.
-                aviftopng.com all tools are implemented using browser technology.
+                aviftopng.top all tools are implemented using browser technology.
                 Faster and safer, 100% free.
               </p>
 
