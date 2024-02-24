@@ -1,7 +1,7 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 // @ts-ignore
-import { Analytics } from '@vercel/analytics/react';
+// import { Analytics } from '@vercel/analytics/react';
 export default function Document() {
   return (
     <Html lang="en">
@@ -11,7 +11,6 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <Analytics />
       </body>
     </Html>
   )
