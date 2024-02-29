@@ -179,7 +179,7 @@ export default function Home() {
               <ul><li><strong>Compression</strong>: AVIF offers much better compression than PNG or JPEG, with images up to ten times smaller than JPEGs of similar visual quality[1].</li><li><strong>Features</strong>: AVIF supports lossy and lossless compression, high dynamic range (HDR), wide color gamut, and transparency, making it a versatile format for images and animations[2].</li><li><strong>Browser Support</strong>: While AVIF is a powerful and efficient format, it lacks uniform support across browsers, requiring fallbacks to more widely supported formats like WebP, JPEG, or PNG[3].</li><li><strong>Quality</strong>: AVIF provides excellent lossy compression compared to JPG and PNG for visually similar compression levels, resulting in smoother and sharper images with the same file size[5].</li><li><strong>Color Depth</strong>: AVIF supports a higher bit depth of 10 compared to WebP&#39;s 8-bit depth, allowing for a wider range of colors but potentially larger file sizes[5].</li></ul>
 
               <p>In summary, AVIF excels in compression efficiency, quality retention, and advanced features like HDR and wide color gamut. However, due to limited browser support, it may require fallback options for broader compatibility. On the other hand, PNG remains a widely supported format known for its lossless compression and transparency features.</p>
-            </div>
+            
 
               <h2 className='text-2xl font-semibold mt-5'>What are the key advantages of converting AVIF images to PNG format?</h2>
               <p className='font-normal text-lg'>Converting AVIF images to PNG format can be beneficial for compatibility reasons, as PNG is widely supported across various platforms and browsers. Additionally, PNG files are lossless, preserving image quality without compression artifacts.</p>
@@ -207,7 +207,7 @@ export default function Home() {
 
               <h2 className='text-2xl font-semibold mt-5'>Are there any specific considerations for web developers when choosing between AVIF and PNG for image optimization?</h2>
               <p className='font-normal text-lg'>Web developers should consider factors such as browser support, image quality requirements, and file size optimization when choosing between AVIF and PNG for web development projects.</p>
-
+            </div>
             <div className='flex justify-around'>
               <div>You can use short url<a href='https://rb.gy/fwxdh'>https://rb.gy/fwxdh</a></div>
               <a href='https://www.douban.com/link2/?url=https%3A%2F%2Faviftopng.top'>click</a>
