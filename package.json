@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@codemirror/language": "^6.10.1",
     "@codemirror/legacy-modes": "^6.3.2",
     "@codemirror/view": "^6.24.1",
     "@headlessui/react": "^1.7.17",

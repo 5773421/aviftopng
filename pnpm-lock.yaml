@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@codemirror/language': ^6.10.1
   '@codemirror/legacy-modes': ^6.3.2
   '@codemirror/view': ^6.24.1
   '@headlessui/react': ^1.7.17
@@ -27,13 +28,14 @@ specifiers:
   typescript: 5.0.3
 
 dependencies:
+  '@codemirror/language': 6.10.1
   '@codemirror/legacy-modes': 6.3.3
   '@codemirror/view': 6.24.1
   '@headlessui/react': 1.7.18_biqbaboplfbrettd7655fr4n2y
   '@heroicons/react': 2.1.1_react@18.2.0
   '@next/font': 13.5.6
-  '@uiw/codemirror-theme-tokyo-night': 4.21.24_@codemirror+view@6.24.1
-  '@uiw/react-codemirror': 4.21.24_j7b5q2nugqhyxa244dbhgceoga
+  '@uiw/codemirror-theme-tokyo-night': 4.21.24_t52tvt4gmttu3uvjeb3vblz5pm
+  '@uiw/react-codemirror': 4.21.24_j4fuhdsehkihpgs4jdvsjgm46y
   endent: 2.1.0
   eventsource-parser: 1.1.2
   next: 13.2.4_biqbaboplfbrettd7655fr4n2y
@@ -72,9 +74,10 @@ packages:
     dependencies:
       regenerator-runtime: 0.14.1
 
-  /@codemirror/autocomplete/6.13.0_6rrsvisbe4zbwlnr7fjfm6qu4u:
+  /@codemirror/autocomplete/6.13.0_qvp5s25wuyqcmnjdd2fqnufjya:
     resolution: {integrity: sha512-SuDrho1klTINfbcMPnyro1ZxU9xJtwDMtb62R8TjL/tOl71IoOsvBo1a9x+hDvHhIzkTcJHy2VC+rmpGgYkRSw==}
     peerDependencies:
+      '@codemirror/language': ^6.0.0
       '@codemirror/state': ^6.0.0
       '@codemirror/view': ^6.0.0
     dependencies:
@@ -563,12 +566,13 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@uiw/codemirror-extensions-basic-setup/4.21.24_@codemirror+view@6.24.1:
+  /@uiw/codemirror-extensions-basic-setup/4.21.24_t52tvt4gmttu3uvjeb3vblz5pm:
     resolution: {integrity: sha512-TJYKlPxNAVJNclW1EGumhC7I02jpdMgBon4jZvb5Aju9+tUzS44IwORxUx8BD8ZtH2UHmYS+04rE3kLk/BtnCQ==}
     peerDependencies:
+      '@codemirror/language': '>=6.0.0'
       '@codemirror/view': '>=6.0.0'
     dependencies:
-      '@codemirror/autocomplete': 6.13.0_6rrsvisbe4zbwlnr7fjfm6qu4u
+      '@codemirror/autocomplete': 6.13.0_qvp5s25wuyqcmnjdd2fqnufjya
       '@codemirror/commands': 6.3.3
       '@codemirror/language': 6.10.1
       '@codemirror/lint': 6.5.0
@@ -577,17 +581,19 @@ packages:
       '@codemirror/view': 6.24.1
     dev: false
 
-  /@uiw/codemirror-theme-tokyo-night/4.21.24_@codemirror+view@6.24.1:
+  /@uiw/codemirror-theme-tokyo-night/4.21.24_t52tvt4gmttu3uvjeb3vblz5pm:
     resolution: {integrity: sha512-FfN4+1FNLW697i8zZcQ08PVRDgsn+N9nbvQCORn1x78kVprAPx7x1f8XdhOtfvAKq4qv+nPMcjcI+0clukwFCw==}
     dependencies:
-      '@uiw/codemirror-themes': 4.21.24_@codemirror+view@6.24.1
+      '@uiw/codemirror-themes': 4.21.24_t52tvt4gmttu3uvjeb3vblz5pm
     transitivePeerDependencies:
+      - '@codemirror/language'
       - '@codemirror/view'
     dev: false
 
-  /@uiw/codemirror-themes/4.21.24_@codemirror+view@6.24.1:
+  /@uiw/codemirror-themes/4.21.24_t52tvt4gmttu3uvjeb3vblz5pm:
     resolution: {integrity: sha512-InY24KWP8YArDBACWHKFZ6ZU+WCvRHf3ZB2cCVxMVN35P1ANUmRzpAP2ernZQ5OIriL1/A/kXgD0Zg3Y65PNgg==}
     peerDependencies:
+      '@codemirror/language': '>=6.0.0'
       '@codemirror/view': '>=6.0.0'
     dependencies:
       '@codemirror/language': 6.10.1
@@ -595,7 +601,7 @@ packages:
       '@codemirror/view': 6.24.1
     dev: false
 
-  /@uiw/react-codemirror/4.21.24_j7b5q2nugqhyxa244dbhgceoga:
+  /@uiw/react-codemirror/4.21.24_j4fuhdsehkihpgs4jdvsjgm46y:
     resolution: {integrity: sha512-8zs5OuxbhikHocHBsVBMuW1vqlv4ccZAkt4rFwr7ebLP2Q6RwHsjpsR9GeGyAigAqonKRoeHugqF78UMrkaTgg==}
     peerDependencies:
       '@codemirror/view': '>=6.0.0'
@@ -607,10 +613,12 @@ packages:
       '@codemirror/state': 6.4.1
       '@codemirror/theme-one-dark': 6.1.2
       '@codemirror/view': 6.24.1
-      '@uiw/codemirror-extensions-basic-setup': 4.21.24_@codemirror+view@6.24.1
+      '@uiw/codemirror-extensions-basic-setup': 4.21.24_t52tvt4gmttu3uvjeb3vblz5pm
       codemirror: 6.0.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+    transitivePeerDependencies:
+      - '@codemirror/language'
     dev: false
 
   /acorn-jsx/5.3.2_acorn@8.11.3:
@@ -912,7 +920,7 @@ packages:
   /codemirror/6.0.1:
     resolution: {integrity: sha512-J8j+nZ+CdWmIeFIGXEFbFPtpiYacFMDR8GlHK3IyHQJMCaVRfGx9NT+Hxivv1ckLWPvNdZqndbr/7lVhrf/Svg==}
     dependencies:
-      '@codemirror/autocomplete': 6.13.0_6rrsvisbe4zbwlnr7fjfm6qu4u
+      '@codemirror/autocomplete': 6.13.0_qvp5s25wuyqcmnjdd2fqnufjya
       '@codemirror/commands': 6.3.3
       '@codemirror/language': 6.10.1
       '@codemirror/lint': 6.5.0
