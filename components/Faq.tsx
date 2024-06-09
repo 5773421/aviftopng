@@ -12,11 +12,11 @@ interface FAQItemProps {
 
 const faqList: FAQItemProps[] = [
   {
-    question: "How can I convert AVIF to PNG?",
+    question: "How can I convert my AVIF images to PNG?",
     answer: <div className="space-y-2 leading-relaxed">First click the `Select the file` button, select your AVIF file to upload. Select any configuration options. When the AVIF to PNG conversion has completed, you can download your PNG file straight away.</div>,
   },
   {
-    question: "Why Convert AVIF to PNG?",
+    question: "Why Convert AVIF images to PNG?",
     answer: (
       <p>
         While AVIF offers superior compression and image quality, it is not universally supported by all browsers and image editing software. PNG remains a universally compatible format, making it a more reliable choice for various applications, especially where transparency and broad.
@@ -35,18 +35,18 @@ const faqList: FAQItemProps[] = [
       <div className="space-y-2 leading-relaxed">Yes, you can convert AVIF to PNG format using our online converters. Keep in mind that the conversion may result in larger file sizes since PNG is a lossless format.</div>
     ),
   },
-  // {
-  //   question: "Is an AI sound effect generator suitable for professional audio production?",
-  //   answer: (
-  //     <div className="space-y-2 leading-relaxed">Yes, an AI sound effect generator is suitable for professional audio production. It can assist sound designers, composers, and audio engineers in creating high-quality sound effects for films, video games, virtual reality experiences, and other media projects. The advanced capabilities of AI technology can enhance the creative process and expand the possibilities of audio design.</div>
-  //   ),
-  // },
-  // {
-  //   question: "What are some popular AI sound effect generators available in the market?",
-  //   answer: (
-  //     <div className="space-y-2 leading-relaxed">There are several popular AI sound effect generators available in the market, including software applications, plugins, and online platforms. Some notable examples include XYZ Sound AI, SoundSense AI, SynthMaster, and Noiiz AI. These tools offer varying features and capabilities for creating and manipulating sound effects using artificial intelligence technology.</div>
-  //   ),
-  // },
+  {
+    question: "What is AVIF?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">AVIF, short for AV1 Image File Format, is a relatively new image format that offers high-quality images at smaller file sizes compared to traditional formats like JPEG and PNG. Developed from the AV1 video codec, AVIF supports advanced features such as High Dynamic Range (HDR) and Wide Color Gamut (WCG), making it ideal for vibrant and data-efficient web visuals</div>
+    ),
+  },
+  {
+    question: "What is PNG?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">PNG, or Portable Network Graphics, is a widely-used image format known for its lossless compression, meaning it retains high image quality even after compression. It is especially popular for images requiring transparency, such as logos and graphics with anti-aliased edges.</div>
+    ),
+  },
 ];
 
 const FaqItem = ({ item }: { item: FAQItemProps }) => {
