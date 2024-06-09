@@ -107,7 +107,7 @@ export default function Home() {
       <div className='flex flex-col min-h-screen'>
         <Header />
         <div className='grow flex flex-col items-center pb-5 lg:pb-0'>
-          {/* <h2 className='text-4xl font-bold mt-10'>Convert images</h2> */}
+          <h1 className='text-4xl font-bold mt-10'>Avif to Png Tool (Free & Online)</h1>
           <input type="file" name="files" id="files"
             accept=".jpeg,.jpg,.png,.gif,.webp,.svg,.ico,.bmp,.avif"
             multiple className='hidden'
