@@ -19,7 +19,7 @@ export default function Header() {
           <div className="-m-1.5 p-1.5">
             <div className="sr-only"></div>
             <div className='flex items-center'>
-              <img className="h-8 w-auto" src="/aviftopnglogo.avif" alt="" />
+              <img className="h-8 w-auto rounded-lg" src="/aviftopnglogo.avif" alt="" />
               <h1>Convert AVIF TO PNG</h1>
             </div>
           </div>
